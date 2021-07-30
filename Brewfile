@@ -39,7 +39,6 @@ brew 'maven'
 brew 'gradle'
 brew 'docker-compose'
 brew 'mvnvm'
-brew 'kubernetes-cli'
 
 # Apps
 cask 'firefox'

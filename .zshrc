@@ -208,9 +208,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-
 # Other
 setopt prompt_subst
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/dsantamarialago/.sdkman"
-[[ -s "/Users/dsantamarialago/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/dsantamarialago/.sdkman/bin/sdkman-init.sh"
+
 source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 plugins=(zsh-completions syntax-highlighting history-substring-search zsh-autosuggestions)
@@ -219,3 +217,13 @@ source /usr/local/share/zsh-history-substring-search/zsh-history-substring-searc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/davidsantamarialago/repos/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/davidsantamarialago/repos/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/davidsantamarialago/repos/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/davidsantamarialago/repos/google-cloud-sdk/completion.zsh.inc'; fi
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/davidsantamarialago/.sdkman"
+[[ -s "/Users/davidsantamarialago/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/davidsantamarialago/.sdkman/bin/sdkman-init.sh"
