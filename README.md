@@ -58,3 +58,4 @@ Execute install script
 * vlc
 * IntelliJ
 * iTerm2
+* Postman

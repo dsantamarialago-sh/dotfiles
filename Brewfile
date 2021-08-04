@@ -49,6 +49,7 @@ cask 'visual-studio-code'
 cask 'vlc'
 cask 'intellij-idea'
 cask 'iterm2'
+cask 'postman'
 
 # Quicklook
 cask 'qlmarkdown'
