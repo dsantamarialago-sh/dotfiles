@@ -25,6 +25,7 @@ git clone https://github.com/stubhubint/Stubhub.test-platform-utils.git
 git clone https://github.com/stubhubint/Stubhub-CloudOps.terraform-google-corp.git
 git clone https://github.com/stubhubint/Stubhub-CloudOps.terraform-google.git
 git clone https://github.com/stubhubint/Stubhub-CloudOps.terraform-google-network.git
+git clone https://github.com/stubhubint/Stubhub.global-test-context.git
 
 echo
 
