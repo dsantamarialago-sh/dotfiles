@@ -50,6 +50,7 @@ cask 'vlc'
 cask 'intellij-idea'
 cask 'iterm2'
 cask 'postman'
+cask 'cheatsheet'
 
 # Quicklook
 cask 'qlmarkdown'
