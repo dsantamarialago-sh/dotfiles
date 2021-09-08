@@ -59,3 +59,4 @@ Execute install script
 * IntelliJ
 * iTerm2
 * Postman
+* Cheatsheet
